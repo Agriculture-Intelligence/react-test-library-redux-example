@@ -1,3 +1,14 @@
+# Run Project 
+- Step 1: Install packages through 'npm install'
+- Step 2: Move into the 'App.test.tsx' in './src/App.test.tsx'
+- Step 3: There is one test case which showcases the issue of redux store persistence after calling "rerender"
+- Step 4: Run 'npm test' to run test case
+ 
+# File Info 
+- The file inside of './utils/test-utils.tsx' provides a custom "render" wrapper function to handle redux state and modify "rerender" to handle redux store as well
+ 
+
+
 # vite-template-redux
 
 Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
